@@ -1,0 +1,350 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 32px 24px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* Minimalist improvements */
+body {
+    background-color: #fafbfc;
+    color: #222;
+}
+
+.container {
+    box-shadow: none;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 32px 24px;
+    background: #fff;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: #222;
+    letter-spacing: -1px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    background: #f6f8fa;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    border-color: #2563eb;
+    background: #fff;
+}
+
+button {
+    background: #2563eb;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+    transition: background 0.2s;
+    box-shadow: 0 1px 2px rgba(37,99,235,0.04);
+}
+
+button:hover {
+    background: #1e40af;
+}
+/* Novo estilo para .container: visual mais moderno e elegante */
+.container {
+    max-width: 420px;
+    margin: 40px auto;
+    padding: 40px 32px;
+    background: linear-gradient(135deg, #f8fafc 60%, #e0e7ef 100%);
+    border-radius: 18px;
+    border: none;
+    box-shadow: 0 8px 32px rgba(60, 72, 100, 0.10), 0 1.5px 4px rgba(37,99,235,0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+.container:hover {
+    box-shadow: 0 12px 40px rgba(37,99,235,0.18), 0 2px 8px rgba(60,72,100,0.08);
+    background: linear-gradient(135deg, #e0e7ef 60%, #f8fafc 100%);
+    transform: translateY(-2px) scale(1.01);
+    transition: box-shadow 0.3s, background 0.3s, transform 0.2s;
+}
+
+h1:hover {
+    color: #2563eb;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(37,99,235,0.08);
+    transition: color 0.2s, letter-spacing 0.2s, text-shadow 0.2s;
+}
+
+.form-group:hover {
+    background: #f1f5fb;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+label:hover {
+    color: #1e40af;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+textarea:hover {
+    border-color: #60a5fa;
+    background: #f0f6ff;
+    transition: border-color 0.2s, background 0.2s;
+}
+/* Minimalista: menos sombras, menos gradientes, mais espaço e simplicidade */
+.container {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    box-shadow: none;
+    padding: 32px 24px;
+    max-width: 400px;
+    margin: 48px auto;
+    gap: 16px;
+    transition: border-color 0.2s;
+}
+
+.container:hover {
+    border-color: #2563eb;
+    background: #f9fafb;
+    box-shadow: none;
+    transform: none;
+}
+
+h1 {
+    color: #222;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+    text-shadow: none;
+    transition: none;
+}
+
+h1:hover {
+    color: #2563eb;
+    letter-spacing: 0;
+    text-shadow: none;
+}
+
+.form-group {
+    background: none;
+    border-radius: 0;
+    margin-bottom: 18px;
+    transition: none;
+}
+
+.form-group:hover {
+    background: none;
+}
+
+label {
+    color: #444;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+label:hover {
+    color: #2563eb;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    background: #f6f8fa;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 1rem;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+textarea:hover {
+    border-color: #2563eb;
+    background: #f6faff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    border-color: #2563eb;
+    background: #fff;
+    outline: none;
+}
+
+button {
+    background: #2563eb;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: none;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #1e40af;
+}
+button:active {
+    background: #1e3a8a;
+    transform: scale(0.98);
+}
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(37,99,235,0.3);
+}
+/* Estilo aprimorado para campo de gênero */
+.gender-group {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.gender-group label {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: color 0.2s;
+    padding-left: 4px;
+}
+
+.gender-group input[type="radio"] {
+    accent-color: #2563eb;
+    margin-right: 4px;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.gender-group input[type="radio"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(37,99,235,0.3);
+}
+
+/* Estilo aprimorado para campo de data de nascimento */
+input[type="date"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    background: #f6f8fa;
+    font-size: 1rem;
+    color: #222;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+input[type="date"]:hover {
+    border-color: #2563eb;
+    background: #f6faff;
+}
+
+input[type="date"]:focus {
+    border-color: #2563eb;
+    background: #fff;
+    outline: none;
+}
